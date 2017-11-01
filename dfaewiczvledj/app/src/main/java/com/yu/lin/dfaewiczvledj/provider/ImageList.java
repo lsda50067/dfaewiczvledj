@@ -23,7 +23,8 @@ public class ImageList {
         // remember remove
         return null;
     }
-
+    
+    // image source form https://newevolutiondesigns.com/50-fresh-hd-wallpapers // no use business
     private static List<Integer> getImages(){
         images.add(R.drawable.hd_wallpaper_preview_1);
         images.add(R.drawable.hd_wallpaper_preview_2);
