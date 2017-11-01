@@ -10,7 +10,7 @@ import java.lang.ref.WeakReference;
 
 /**
  * Created by Lin-Yu on 01/11/2017.
- *
+ * DoNothing
  */
 
 public class DrawableTask extends AsyncTask<Integer, Void, Drawable> {
