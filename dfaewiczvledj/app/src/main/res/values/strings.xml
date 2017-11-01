@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">dfaewiczvledj</string>
+
+    <string name="text">測試</string>
+
+    <string name="dfaewiczvledj">dfaewiczvledj</string>
+    <string name="test_dfaewiczvledj">Test_dfaewiczvledj</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="itemTools">itemTools</string>
+    <string name="itemSlideShow">itemSlideshow</string>
+    <string name="itemGallery">itemGallery</string>
+    <string name="itemCamera">itemCamera</string>
 </resources>

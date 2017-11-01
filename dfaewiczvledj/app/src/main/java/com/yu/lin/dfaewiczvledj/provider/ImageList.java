@@ -14,18 +14,37 @@ public class ImageList {
 
     private static List<Integer> images = new ArrayList<>();
     private static List<String> imageId = new ArrayList<>();
+    private static List<String> imageUrl = new ArrayList<>();
+
+    public static List<String> getImageUrl(){
+        return setImageUrl();
+    }
 
     public static List<Integer> getDrawableIdList() {
-        return getImages();
+        return setImages();
     }
 
     public static List<String> getImageId(){
         
-        return getId();
+        return setImageUrl();
+    }
+
+    private static List<String> setImageUrl(){
+        imageUrl.add("https://newevolutiondesigns.com/images/freebies/hd-wallpaper-1.jpg");
+        imageUrl.add("https://newevolutiondesigns.com/images/freebies/hd-wallpaper-2.jpg");
+        imageUrl.add("https://newevolutiondesigns.com/images/freebies/hd-wallpaper-3.jpg");
+        imageUrl.add("https://newevolutiondesigns.com/images/freebies/hd-wallpaper-4.jpg");
+        imageUrl.add("https://newevolutiondesigns.com/images/freebies/hd-wallpaper-5.jpg");
+        imageUrl.add("https://newevolutiondesigns.com/images/freebies/hd-wallpaper-6.jpg");
+        imageUrl.add("https://newevolutiondesigns.com/images/freebies/hd-wallpaper-7.jpg");
+        imageUrl.add("https://newevolutiondesigns.com/images/freebies/hd-wallpaper-8.jpg");
+        imageUrl.add("https://newevolutiondesigns.com/images/freebies/hd-wallpaper-9.jpg");
+        imageUrl.add("https://newevolutiondesigns.com/images/freebies/hd-wallpaper-10.jpg");
+        return imageUrl;
     }
 
     // image source form https://newevolutiondesigns.com/50-fresh-hd-wallpapers // no use business
-    private static List<Integer> getImages(){
+    private static List<Integer> setImages(){
         images.add(R.drawable.hd_wallpaper_preview_1);
         images.add(R.drawable.hd_wallpaper_preview_2);
         images.add(R.drawable.hd_wallpaper_preview_3);

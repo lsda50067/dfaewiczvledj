@@ -2,7 +2,6 @@ package com.yu.lin.dfaewiczvledj.Task;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.graphics.BitmapFactory;
 import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.widget.ImageView;
@@ -23,6 +22,11 @@ public class DrawableTask extends AsyncTask<Integer, Void, Drawable> {
     public DrawableTask(ImageView imageView, Context context) {
         this.mContext = context;
         this.imageViewReference = new WeakReference<ImageView>(imageView);
+    }
+
+    public interface OnLoadImageListener {
+        public void onLoadImageSuccess(String key,Drawable drawable);
+        public void onLoadImageError();
     }
 
     @Override
