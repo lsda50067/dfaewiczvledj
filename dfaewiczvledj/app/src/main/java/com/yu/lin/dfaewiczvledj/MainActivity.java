@@ -15,7 +15,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     public static final String TAG = "MainActivity";
-    private static List<Integer> imageList = ImageList.getDrawableIdList();
+//    private static List<Integer> imageList = ImageList.getDrawableIdList();
 
 
     @Override
